@@ -1,0 +1,421 @@
+/*
+Theme Name: WordPress Spring 2017 Section 01 Demo
+Author: Ayumi Kojima
+Author URI: http://ayumik.com/wordpress/
+Description: This is the demo theme for the Web170 class for the Spring 2017 Quarter. 
+Version: 42.0
+*/
+
+
+/* CSS reset*/
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/* ---- start wp style ------------*/
+.aligncenter{
+    display: block;
+    margin: 0 auto;
+}
+
+.alignleft{
+    float: left;
+    margin-right: 20px;
+}
+
+.alighright{
+    float: right;
+    margin-left: 20px;
+}
+
+
+/* ---- end wp style ------------*/
+
+
+img.logo {
+	display:block;
+	margin:auto;
+	}
+	
+	
+/* Home page */	
+main{
+    width:80%;
+    margin:auto;
+    background-color:#c7b299; 
+}
+
+section {
+	width:76%;
+	margin:auto;
+	}
+	
+img#main{
+    width:100%;
+	max-width:960px;
+	display:block;
+	margin:auto;
+}
+
+img.small{
+	display:inline-block;
+	width:32%;
+	margin:1% 0;
+	max-width:288px;
+	border:solid 1px #000;
+	}
+
+
+
+/* About page */
+section.aboutPic{
+	width:18%;
+	float:left;
+	padding:2%;
+	margin:0 0 2% 0;
+	}
+img#about{
+	width:100%;
+	}
+article.about{
+	width:50%;
+	float:right;
+	padding:2%;
+	background-color:#fff;
+	margin:2% 0 2% 0;
+	}
+	
+article.about h3 {
+	text-align:center;
+	margin-bottom:.5em;
+	}
+
+article.about p {
+	margin-bottom:.5em;
+	text-indent:5%;
+	}
+
+
+/* footer */		
+footer{
+	clear:both;
+	background-color:#c7b299;
+	color:#6F4D48;
+	text-transform:uppercase;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align:center;
+}
+
+footer a {
+	color:#000;
+	}
+
+footer a:hover {
+	color:#ccc;
+	text-decoration:none;
+	}
+	
+/*DESKTOP*/
+@media all and (min-width:780px)	{
+	body{
+		width:80%;
+		margin:auto;
+	}
+	section.aboutPic {
+		float:left;
+		width:26%;
+		padding-left:2.5%;
+	}
+
+	article.about {
+		float:right;
+		width:64%;
+		padding-right:2.5%;
+}
+
+}
+	
+
+
+/* products page styles */
+div.productsAbout{
+	width:30%;
+	float:left;
+	background-color:#fff;
+	padding:2%;
+	margin:2% 0 2% 0;
+	}
+	
+div.products {
+	width:60%;
+	float:right;
+	background-color:#fff;
+	padding:2%;
+	margin:2% 0 2% 2%;
+	}
+
+img.products {
+	width:45%;
+	margin: 2% 0 2% 2%;
+	}
+	
+/* Food Safety */
+
+
+div.foodsafety {
+	width:80%;
+	margin:auto;
+	background-color:#fff;
+	padding:2%;
+	}	
+
+div.foodsafety h3 {
+	text-align:center;
+	margin-bottom:.5em;
+	}
+
+div.foodsafety p {
+	margin-bottom:.5em;
+	text-indent:5%;
+	}
+	
+/* Contact page */
+div.form{
+	width:60%;
+	float:left;
+	background-color:#fff;
+	padding:2%;
+	margin:2% 0 2% 0;
+	}
+
+div.map{
+	width:30%;
+	float:right;
+	background-color:#fff;
+	padding:2%;
+	margin:2% 0 2% 2%;
+	}
+		
+div.embed-container { 
+position: relative; 
+padding-bottom: 56.25%; 
+height: 0; 
+overflow: hidden; 
+max-width: 100%; 
+} 
+
+div.map h3, p {
+	text-align:center;
+	}
+	
+div.map h3 {
+	margin-top:.5em;
+	}
+div.disclaimer {
+	width:80%;
+	padding:1%;
+	margin:auto;}
+
+div.disclaimer h1 {
+	text-align:center;
+	}
+	
+div.disclaimer p{
+	margin-bottom:.5em;
+	text-indent:5%;}
+	
+		/*TABLET*/
+@media all and (min-width:481px) and (max-width:779px){	
+main{
+    width:100%;
+    margin:auto;
+    background-color:#c7b299; 
+}
+
+img#main{
+    width:100%;
+	display:block;
+	margin:auto;
+}
+
+img.small{
+	display:inline-block;
+	width:30%;
+	margin:1% 0;
+	max-width:288px;
+	border:solid 1px #000;
+	}
+
+section.aboutPic {
+	float:left;
+	width:40%;
+	}
+
+article.about {
+	float:right;
+	width:50%;
+	}	
+}
+/*PHONE*/
+@media all and (max-width:480px)	{
+main{
+    width:100%;
+    margin:auto;
+    background-color:#c7b299; 
+}
+
+img#main{
+    width:100%;
+	display:block;
+	margin:auto;
+}
+
+img.small{
+	width:100%;
+	margin:1% 0;
+	max-width:288px;
+	border:solid 1px #000;
+	}
+	
+section.aboutPic {
+	float:none;
+	width:100%;
+	} 
+
+article.about {
+	float:none;
+	width:100%;
+	}
+	/*IF article and aside are written in global */	
+
+div.productsAbout {
+	width:100%;
+	display:block;
+	margin:auto;
+	}
+div.products {
+	width:100%;
+	display:block;
+	margin:auto;
+	}	
+
+div.form {
+	width:100%;
+	display:block;
+	margin:auto;
+	}	
+	
+div.map {
+	width:100%;
+	display:block;
+	margin:auto;
+	}			
+
+}
+
+
+
+
+/*---------------------------nav.css  ---------------------------------*/
+header{
+	background: #c7b299; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffffff, #c7b299); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #c7b299); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #c7b299); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #c7b299); 
+	}
+
+body {
+	background-color:#c7b299;
+	margin:auto;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3b5541;
+	text-align:center;
+}
+
+/* Float the list items side by side */
+.menu ul li {
+	display:inline-block
+	
+	}
+
+.menu ul li.current {
+	background-color:#6F4D48;
+	}
+
+/* Style the links inside the list items */
+.menu ul li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+.menu ul li a:hover {color: #6F4D48;}
+
+
+
+/* Hide the list item that contains the link that should open and close the.menu on small screens */
+.menu ul li.icon {display: none;
+}
+
+
+.menu ul li ul.sub-menu {
+    display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+.menu ul li:nth-child(3):hover .menu ul li ul.sub-menu
+{
+	display:block
+}
+
+
+h2.pageid {
+	text-align:center;
+	color:#3b5541;
+    margin:2%;
+	}
+
+
+@media screen and (max-width:680px) {
+  .menu ul li:not(:first-child) {display: none;}
+  .menu ul li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the.menu with JavaScript when the user clicks on the icon. This class makes the.menu look good on small screens */
+@media screen and (max-width:680px) {
+  .menu ul.responsive {position: relative;}
+  .menu ul.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menu ul.responsive li {
+    float: none;
+    display: inline;
+  }
+  .menu ul.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
