@@ -39,9 +39,8 @@
     <a href="commodities.php" onMouseover="chgImg('button2','button2Red')" onMouseout="chgImg('button2','button2Blue')"><img src="<?php bloginfo('template_directory'); ?>/images/veggie-basket.jpg"  name="button2" alt="commodities" class="small"></a> 
     
     <a href="foodsafety.php" onMouseover="chgImg('button3','button3Red')" onMouseout="chgImg('button3','button3Blue')"><img src="<?php bloginfo('template_directory'); ?>/images/fs.jpg"  name="button3" alt="food safety" class="small"></a> 
-
-        <small>index.php</small>    
+    
      </section>
 
-
+<small>front-page.php</small>
 <?php get_footer(); ?>

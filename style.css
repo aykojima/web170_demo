@@ -33,7 +33,13 @@ Version: 42.0
 
 /* ---- end wp style ------------*/
 
+/* ---- Start sidebar ------------*/
 
+#sidebar{
+    width:25%;
+    float:right;
+}
+/* ---- end of sidebar ------------*/
 img.logo {
 	display:block;
 	margin:auto;
@@ -68,7 +74,10 @@ img.small{
 	}
 
 
-
+#content{
+    width:70%;
+    float:left;
+}
 /* About page */
 section.aboutPic{
 	width:18%;
@@ -347,9 +356,10 @@ body {
 	
 	}
 
-.menu ul li.current {
+.menu ul li.current_page_item, .menu ul li.current_page_parent{
 	background-color:#6F4D48;
 	}
+
 
 /* Style the links inside the list items */
 .menu ul li a {
@@ -372,7 +382,7 @@ body {
 }
 
 
-.menu ul li ul.sub-menu {
+.menu ul li ul.children {
     display:none;
 	position:absolute;
 	top:100%;
@@ -381,7 +391,7 @@ body {
 	padding:0
 }
 
-.menu ul li:nth-child(3):hover .menu ul li ul.sub-menu
+a:hover + .menu ul li ul.children
 {
 	display:block
 }

@@ -7,14 +7,11 @@ Description: This is the demo theme for the Web170 class for the Spring 2017 Qua
 Version: 42.0
 */
 
-<?php
 
-// Register My Menus
-register_nav_menus(array(
-'main-menu' => __( 'Main' ),
-));
+// Register Navigation Menus
+register_nav_menus(array('main-menu' => __( 'Main Menu')));
 //
 
-?>
+
 
 ?>
