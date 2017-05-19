@@ -6,11 +6,18 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
-
-<!-- flexslider -->
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css">  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>    
 <script src="<?php bloginfo('template_directory'); ?>/jquery.flexslider.js"></script>
+
+  
+<!-- flexslider -->
+<script type="text/javascript" charset="utf-8">
+	  $(window).load(function() { // enable function upon window load
+	    $('.flexslider').flexslider(); // call flexslider function
+	  });
+</script>
+
 <!-- end of flexslider -->     
     
 <script>
@@ -82,3 +89,6 @@ if (document.images) {
 </header>
 
 <main>
+
+
+    
