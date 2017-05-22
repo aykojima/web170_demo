@@ -14,6 +14,32 @@ Version: 42.0
 }
 
 
+
+/* ------- Start of post thumbnails*  --------- */
+img.wp-post-image {}
+img.attachment-thumbnail {
+    float: left;
+    margin: 4px 20px 0 0;
+}
+img.attachment-medium {}
+img.attachment-large {}
+img.attachment-full {}
+/* ------- End pf post thumbnails*  --------- */
+
+/* post excerpt style */
+#content article.post-excerpt {
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+}
+#content article.post-excerpt p{
+    text-align: left;
+}
+
+#content article.post-excerpt p#read-more{
+    text-align: right;
+}
+
 /* ---- start wp style ------------*/
 .aligncenter{
     display: block;
@@ -125,7 +151,10 @@ footer a:hover {
 	color:#ccc;
 	text-decoration:none;
 	}
-	
+
+
+
+
 /*DESKTOP*/
 @media all and (min-width:780px)	{
 	body{
@@ -234,7 +263,10 @@ div.disclaimer h1 {
 div.disclaimer p{
 	margin-bottom:.5em;
 	text-indent:5%;}
-	
+
+
+
+
 		/*TABLET*/
 @media all and (min-width:481px) and (max-width:779px){	
 main{
@@ -267,6 +299,16 @@ article.about {
 	width:50%;
 	}	
 }
+
+
+
+
+
+
+
+
+
+
 /*PHONE*/
 @media all and (max-width:480px)	{
 main{
@@ -323,6 +365,8 @@ div.map {
 	}			
 
 }
+
+
 
 
 
