@@ -13,8 +13,9 @@ Version: 42.0
 	padding:0;
 }
 
-/* ------- Start of blockquote  --------- */
+/* ------- Start of sidebar  --------- */
 div#sidebar blockquote {
+	margin-top:5%;
 	border-right: 3px #f4427a solid;
 	border-left: 3px #f4427a solid;
 	border-left-style: double;
@@ -25,8 +26,19 @@ div#sidebar blockquote {
 	text-align: center;
 }
 
+div#meta-3 {
+	margin-top:5%;
+}
 
-/* ------- End of blockquote  --------- */
+div#meta-3 ul {
+	margin:5%;
+	list-style: none;
+}
+
+div#search-3{
+	margin:5%;
+}
+/* ------- End of sidebar  --------- */
 
 /* ------- Start of post thumbnails*  --------- */
 img.wp-post-image {}

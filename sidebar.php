@@ -30,5 +30,12 @@
 <blockquote><?php echo get_post_meta($post->ID, 'Quote', true); ?></blockquote>
 <?php endif; ?>
 <!--End Quote -->
+
+<!-- Begin Widgets -->
+        <?php dynamic_sidebar(1); ?>
+        
+        
+<!-- End Widgets -->
+
 </div>
 <!-- End Sidebar -->
