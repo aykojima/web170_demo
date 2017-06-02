@@ -13,7 +13,20 @@ Version: 42.0
 	padding:0;
 }
 
+/* ------- Start of blockquote  --------- */
+div#sidebar blockquote {
+	border-right: 3px #f4427a solid;
+	border-left: 3px #f4427a solid;
+	border-left-style: double;
+	border-right-style: double;
+	padding: 3px;
+	padding-left: 5px;
+	margin: 2px;
+	text-align: center;
+}
 
+
+/* ------- End of blockquote  --------- */
 
 /* ------- Start of post thumbnails*  --------- */
 img.wp-post-image {}

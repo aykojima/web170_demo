@@ -25,5 +25,10 @@
 
 ?>
 </ul>
+<!--Begin Quote-->
+<?php if(get_post_meta($post->ID, 'Quote', true)) : ?>
+<blockquote><?php echo get_post_meta($post->ID, 'Quote', true); ?></blockquote>
+<?php endif; ?>
+<!--End Quote -->
 </div>
 <!-- End Sidebar -->
