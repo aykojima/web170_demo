@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title><?php bloginfo('description'); ?> | <?php bloginfo('name'); ?></title>
-
+<!--<title><?php bloginfo('description'); ?> | <?php bloginfo('name'); ?></title>-->
+<title><?php get_my_title_tag(); ?></title>
 <meta charset="UTF-8" />
+<!-- Begin Meta -->
 <meta name="viewport" content="width=device-width" />
+<meta name="description" content="<?php echo get_the_excerpt(); ?>">
+<!-- <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />-->
+<!-- End Meta -->
+
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css">  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>    
